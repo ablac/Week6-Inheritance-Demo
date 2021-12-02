@@ -42,17 +42,16 @@ namespace Week6_Inheritance_Demo
         //************************************
         public int NumDoors
         {
-            get { return numDoors; }
-            set { numDoors = value; } 
+            get{return numDoors;}
+            set{numDoors = value;} 
         }
-
         //************************************
         //*************HATCHBACK**************
         //************************************
         public bool HatchBack
         {
-            get { return hatchBack; }
-            set { hatchBack = value; }
+            get{return hatchBack;}
+            set{hatchBack = value;}
         }
     }
 }
