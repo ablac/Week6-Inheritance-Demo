@@ -42,6 +42,7 @@ namespace Week6_Inheritance_Demo
         {
             get { return range; }
             set { range = value; }
+        }
 
     }
 }
