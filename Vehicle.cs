@@ -64,75 +64,40 @@ namespace Week6_Inheritance_Demo
         //************************************
         public string Make
         {
-            get
-            {
-                return make;
-            }
-            set
-            {
-                make = value;
-
-            }
+            get{return make;}
+            set{make = value;}
         }
         //************************************
         //***************MODEL****************
         //************************************
         public string Model
         {
-            get
-            {
-                return model;
-            }
-            set
-            {
-                model = value;
-
-            }
+            get{return model;}
+            set{model = value;}
         }
         //************************************
         //***************YEAR*****************
         //************************************
         public int Year
         {
-            get
-            {
-                return year;
-            }
-            set
-            {
-                year = value;
-
-            }
+            get{return year;}
+            set{year = value;}
         }
         //************************************
         //***************PRICE****************
         //************************************
         public double Price
         {
-            get
-            {
-                return price;
-            }
-            set
-            {
-                price = value;
-
-            }
+            get{return price;}
+            set{price = value;}
         }
         //************************************
         //***************SPEED****************
         //************************************
         public int Speed
         {
-            get
-            {
-                return speed;
-            }
-            set
-            {
-                speed = value;
-
-            }
+            get{return speed;}
+            set{speed = value;}
         }
     }
 }
